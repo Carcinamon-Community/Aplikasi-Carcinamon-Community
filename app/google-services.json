@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "918631797563",
+    "firebase_url": "https://carcinamon-comunity-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "carcinamon-comunity",
+    "storage_bucket": "carcinamon-comunity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918631797563:android:1eeb46d9c26597e1a11d1e",
+        "android_client_info": {
+          "package_name": "com.hamdanfatah.carcinamoncommunitycapstone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918631797563-b1hoetsk03iipu9fcl01971nvfhqf7en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSc9yzDslYa_F-o3fyJYJUHWNWBvc155U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918631797563-b1hoetsk03iipu9fcl01971nvfhqf7en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

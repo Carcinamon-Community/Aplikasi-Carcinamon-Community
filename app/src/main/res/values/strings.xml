@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Carcinamon Community Capstone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tittle_komunitas">Komunitas</string>
+    <string name="tittle_artikel">Artikel</string>
+    <string name="tittle_fitur">Fitur</string>
+    <string name="tittle_profil">Profil</string>
+</resources>

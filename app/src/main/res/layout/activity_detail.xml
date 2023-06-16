@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Artikel.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_detail_artikel"
+            android:layout_width="0dp"
+            android:layout_height="251dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/tv_detail_judul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="15dp"
+            android:text="Andhika Hartawan: Perjalanan Inspiratif Seorang Survivor Kanker"
+            android:textColor="#121111"
+
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_detail_artikel" />
+
+        <TextView
+            android:id="@+id/tv_detail_deskripsi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:paddingEnd="23dp"
+            android:text="Kanker adalah kata yang menimbulkan ketakutan dan ketidakpastian bagi banyak orang. Ini adalah pertempuran yang menguji kekuatan, ketahanan, dan keinginan seseorang. Di tengah tantangan yang menakutkan seperti itu, ada individu yang bangkit melampaui kesulitan dan menjadi cahaya harapan dan inspirasi. Salah satu orang tersebut adalah Andhika Hartawan, seorang individu luar biasa yang berhasil mengatasi kanker dan menjadi simbol keberanian dan tekad.
+
+\n \nPerjalanan Andhika dimulai ketika ia didiagnosis kanker pada usia muda. Berita tersebut menghancurkan, dan itu mengubah hidupnya dengan cara yang tidak pernah ia bayangkan. Namun, alih-alih terpuruk dalam keputusasaan, Andhika membuat keputusan untuk melawan dengan segenap kekuatannya. Ia memulai pertempuran yang penuh keberanian, bersenjatakan harapan, kepositifan, dan semangat yang tak tergoyahkan.
+
+\n\nSepanjang perawatan, Andhika menghadapi banyak tantangan. Rasa sakit fisik, gejolak emosional, dan ketidakpastian akan masa depan sangat berat baginya. Namun, ia tidak pernah kehilangan tujuannya - untuk mengalahkan kanker dan merebut kembali hidupnya. Perjalanan Andhika ditandai dengan kunjungan berulang ke rumah sakit, operasi, dan perawatan medis yang intens. Namun, ia menolak membiarkan kanker mendefinisikan dirinya. Ia menjadi peserta aktif dalam penyembuhannya sendiri, mencari terapi pendukung, mengadopsi gaya hidup sehat, dan mengapresiasi kekuatan kepositifan.
+
+\n\nKekuatan dan ketekunan Andhika membuahkan hasil ketika ia perlahan-lahan keluar sebagai pemenang. Perawatannya berhasil, dan ia memasuki masa remisi. Namun, ceritanya tidak berakhir di situ. Alih-alih melanjutkan hidupnya seperti biasa, Andhika memutuskan untuk menggunakan pengalamannya untuk membuat perbedaan dalam kehidupan orang lain yang berjuang melawan kanker. Ia menjadi pembela kesadaran kanker, berbagi kisahnya untuk menginspirasi dan memotivasi mereka yang menghadapi tantangan serupa. Melalui ceramah publik, platform media sosial, dan kelompok dukungan, Andhika telah menyentuh hati banyak orang, memberikan mereka harapan dan bahu untuk bersandar.
+
+Perjalanan Andhika sebagai seorang survivor kanker telah mengajarkannya pelajaran berharga dalam kehidupan - pentingnya rasa syukur, kekuatan ketahanan, dan kekuatan yang ada di dalam diri kita. Ia telah menjadi simbol harapan, mengingatkan kita bahwa tidak peduli seberapa sulit jalan yang kita hadapi, selalu ada sinar cahaya di ujung terowongan. Cerita Andhika adalah bukti nyata tentang semangat manusia yang tak terkalahkan dan kemampuan untuk mengatasi hambatan bahkan yang paling sulit"
+            android:textColor="#3E3C3C"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/iv_detail_artikel"
+            app:layout_constraintStart_toStartOf="@+id/tv_detail_judul"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_judul" />
+
+        <ImageView
+            android:id="@+id/btn_back_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_back" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

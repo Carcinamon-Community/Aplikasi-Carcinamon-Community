@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    android:layout_marginHorizontal="0dp"
+    app:cardElevation="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginEnd="8dp"
+            app:cardCornerRadius="10dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_tittle"
+            android:layout_width="278dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            android:padding="0dp"
+            android:paddingEnd="20dp"
+            android:text="Zoleka Mandela: Membangkitkan Semangat dan Perjuangan Melawan Kanker"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/cardView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cardView2" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:paddingEnd="23dp"
+            android:text="Kareem Abdul-Jabbar adalah seorang ikon dalam dunia olahraga, terutama dalam dunia bola basket. Selain prestasinya yang gemilang di lapangan, Kareem juga memiliki kisah inspiratif sebagai seorang penyintas kanker.  Pada tahun 2008, Kareem Abdul-Jabbar didiagnosis menderita kanker prostat. Diawali dengan rasa kaget dan kekhawatiran, Kareem mengambil langkah-langkah berani untuk menghadapi penyakit yang menyerangnya. Dia segera memulai perjalanan pengobatan yang intensif dan menjalani prosedur medis yang diperlukan.  Dalam perjalanan pengobatan, Kareem Abdul-Jabbar menunjukkan ketabahan dan semangat yang luar biasa. Meskipun mengalami tantangan fisik dan emosional, dia tidak pernah menyerah. Kareem aktif terlibat dalam mencari informasi dan mempelajari berbagai cara untuk mendukung proses penyembuhannya.  Selama menghadapi kanker, Kareem Abdul-Jabbar juga menggunakan platformnya sebagai seorang publik figur untuk menyebarkan kesadaran tentang pentingnya deteksi dini dan perawatan yang tepat. Dia berbagi pengalamannya melalui berbagai wawancara, artikel, dan buku yang menginspirasi banyak orang di seluruh dunia.  Kareem Abdul-Jabbar berhasil melawan kanker prostatnya dan menjadi penyintas yang kuat. Kisahnya menjadi inspirasi bagi banyak orang yang sedang berjuang melawan penyakit mematikan ini. Dia membuktikan bahwa dengan semangat yang kuat, dukungan yang tepat, dan ketekunan, kita bisa menghadapi dan mengalahkan tantangan terbesar dalam hidup kita.  Kisah inspiratif Kareem Abdul-Jabbar sebagai seorang penyintas kanker mengajarkan kita tentang pentingnya menjaga semangat, ketabahan, dan harapan dalam menghadapi tantangan hidup. Dia tidak hanya menjadi contoh inspiratif bagi para penderita kanker, tetapi juga bagi semua orang yang menghadapi cobaan dalam hidup mereka. Kareem Abdul-Jabbar memberikan teladan bahwa kita tidak boleh menyerah dan terus berjuang untuk hidup yang lebih baik."
+            android:textSize="11dp"
+            app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+            app:layout_constraintEnd_toStartOf="@+id/cardView2"
+            app:layout_constraintStart_toStartOf="@+id/tv_tittle"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tittle" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

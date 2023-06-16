@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/navigation_komunitas">
+
+    <fragment
+        android:id="@+id/navigation_komunitas"
+        android:name="com.hamdanfatah.carcinamoncommunitycapstone.Fragment.KominitasFragment"
+        android:label="@string/tittle_komunitas"
+        tools:layout="@layout/fragment_kominitas" >
+        <action
+            android:id="@+id/action_navigation_komunitas_to_pertanyaanActivity"
+            app:destination="@id/pertanyaanActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_artikel"
+        android:name="com.hamdanfatah.carcinamoncommunitycapstone.Fragment.ArtikelFragment"
+        android:label="@string/tittle_artikel"
+        tools:layout="@layout/fragment_artikel" />
+    <fragment
+        android:id="@+id/navigation_fitur"
+        android:name="com.hamdanfatah.carcinamoncommunitycapstone.Fragment.FiturFragment"
+        android:label="@string/tittle_komunitas"
+        tools:layout="@layout/fragment_fitur" />
+    <fragment
+        android:id="@+id/navigation_profil"
+        android:name="com.hamdanfatah.carcinamoncommunitycapstone.Fragment.ProfilFragment"
+        android:label="@string/tittle_profil"
+        tools:layout="@layout/fragment_profil" />
+    <activity
+        android:id="@+id/pertanyaanActivity"
+        android:name="com.hamdanfatah.carcinamoncommunitycapstone.Komunitas.PertanyaanActivity"
+        android:label="activity_pertanyaan"
+        tools:layout="@layout/activity_pertanyaan" />
+</navigation>
